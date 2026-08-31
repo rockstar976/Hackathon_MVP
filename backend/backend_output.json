@@ -1,0 +1,50 @@
+{
+  "listings": [
+    {
+      "listing_id": "L1",
+      "seller_id": "U1",
+      "kwh_available": 5.0,
+      "price_per_kwh": 6.0,
+      "status": "open"
+    },
+    {
+      "listing_id": "L2",
+      "seller_id": "U3",
+      "kwh_available": 4.2,
+      "price_per_kwh": 5.8,
+      "status": "open"
+    }
+  ],
+  "trades": [
+    {
+      "trade_id": "T1",
+      "seller_id": "U3",
+      "buyer_id": "U2",
+      "kwh_traded": 3.0,
+      "price_per_kwh": 5.8,
+      "timestamp": "2026-08-30T11:51:56.297545+00:00",
+      "previous_hash": "0000000000000000",
+      "hash": "16491257e576445f6e8f7d9043aaf34b1ef9652174d0629df69dbb4e11e867a4"
+    },
+    {
+      "trade_id": "T2",
+      "seller_id": "U3",
+      "buyer_id": "U5",
+      "kwh_traded": 1.2,
+      "price_per_kwh": 5.8,
+      "timestamp": "2026-08-30T11:51:56.297680+00:00",
+      "previous_hash": "16491257e576445f6e8f7d9043aaf34b1ef9652174d0629df69dbb4e11e867a4",
+      "hash": "92ce4157ec71565c50a1c38a6f1cf0dfdc1e0ba04ef1a280afcfd9914d868e9a"
+    },
+    {
+      "trade_id": "T3",
+      "seller_id": "U1",
+      "buyer_id": "U4",
+      "kwh_traded": 2.5,
+      "price_per_kwh": 6.0,
+      "timestamp": "2026-08-30T11:51:56.297724+00:00",
+      "previous_hash": "92ce4157ec71565c50a1c38a6f1cf0dfdc1e0ba04ef1a280afcfd9914d868e9a",
+      "hash": "0f9f02210170dd57c1d58ed281b800b55bb9a94f97881354d431084adb8606f5"
+    }
+  ]
+}
